@@ -3,16 +3,16 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'youremail@gmail.com',
-    pass: 'yourpassword'
+    user: 'nicolyquerinodesouza2023@gmail.com',
+    pass: 'vfrs mrqj jglr onsq'
   }
 });
 
 var mailOptions = {
-  from: 'youremail@gmail.com',
-  to: 'myfriend@yahoo.com',
+  from: 'nicolyquerinodesouza2023@gmail.com',
+  to: 'nicolyquerinodesouza2007@gmail.com',
   subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
+  text: 'uuuuuuuuuuuuu!'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
