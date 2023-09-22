@@ -12,7 +12,7 @@ var mailOptions = {
   from: 'camilalamarque10@gmail.com',
   to: 'joedio.borges@ifc.edu.br',
   subject: 'trabalhooo',
-  text: 'Camila lamarque , 2B  citm rtxt rzgh ssyh'
+  text: 'Camila Lamarque , 2B  citm rtxt rzgh ssyh'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
